@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+
+
+body {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    background: var(--clr);
+}
+
+:root {
+    --clr: #181818;
+}
+
+
+.cont {
+    margin: 0 40px;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: absolute;
+    left: 560px;
+    color: #fff;
+
+}
+
+.cont .tab {
+    position: relative;
+    background: #fff;
+    padding: 0 20px 20px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+
+.cont .tab input {
+   appearance: none; 
+}
+
+.cont .tab label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.cont .tab label::after {
+    content: "+";
+    position: absolute;
+    right: 20px;
+    font-size: 2em;
+    color: rgba(0, 0, 0, 0.1);
+    transition: transform 1s;
+}
+
+.cont .tab:hover label::after {
+    color: #333;
+} 
+
+.cont .tab input:checked ~ label::after {
+    transform: rotate(135deg);
+}
+
+.cont .tab label h2 {
+    width: 40px;
+    height: 40px;
+    background: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 1.25em;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.cont .tab:nth-child(2) label h2 {
+    background: linear-gradient(160deg, #fc357b, #a81f4f);
+}
+
+.cont .tab:nth-child(3) label h2 {
+    background: linear-gradient(160deg, #4fc3dc, #296572);
+}
+
+.cont .tab:nth-child(4) label h2 {
+    background: linear-gradient(160deg, #29fd53, #189b32);
+}
+
+.cont .tab:nth-child(5) label h2 {
+    background: linear-gradient(160deg, #e726c7, #7a1464);
+}
+
+.cont .tab:nth-child(6) label h2 {
+    background: linear-gradient(160deg, #e7e726, #c4c422);
+}
+
+.cont .tab:nth-child(7) label h2 {
+    background: linear-gradient(160deg, #26e78d, #14776a);
+}
+
+.cont .tab label h3 {
+    position: relative;
+    font-weight: 500;
+    color: #333;
+    z-index: 10;
+}
+
+.cont .tab .content {
+    max-height: 0;
+    transition: 2s;
+    overflow: hidden;
+}
+
+.cont .tab input:checked ~ .content {
+    max-height: 100vh;
+}
+
+.cont .tab .content p {
+    position: relative;
+    padding: 10px 0;
+    color: #333;
+    z-index: 10;
+}

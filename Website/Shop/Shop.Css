@@ -1,0 +1,1548 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+body {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    background: var(--clr);
+}
+
+:root {
+    --clr: #181818;
+}
+
+#Title {
+    position: absolute;
+    left: 200px;
+    top: 40px;
+    font-size: 100px;
+}
+
+#Xbox {
+    position: absolute;
+    left: 400px;
+    top: 230px;
+    font-size: 60px;
+}
+
+#XboxLogo {
+    position: absolute;
+    left: 300px;
+    top: 190px;
+    font-size: 90px;
+    color: #0e7a0d;
+}
+
+#PS {
+    position: absolute;
+    left: 400px;
+    top: 1930px;
+    font-size: 60px;
+}
+
+#PSLogo {
+    position: absolute;
+    left: 300px;
+    top: 1890px;
+    font-size: 90px;
+    color: #003087;
+}
+
+#PC {
+    position: absolute;
+    left: 400px;
+    top: 3630px;
+    font-size: 60px;
+}
+
+#PCLogo {
+    position: absolute;
+    left: 300px;
+    top: 3590px;
+    font-size: 90px;
+    color:black;
+}
+
+#BlankBox {
+    position: absolute;
+    height: 200px;
+    width: 400px;
+    background-color: transparent;
+    border-radius: 20px;
+    left: 375px;
+    top: 4500px;
+}
+
+
+/*$     Xbox     */
+
+/*# Doom Eternal Xbox */
+
+.DEpopup .DEoverlay {
+    position:fixed;
+    top:0px;
+    left:0px;
+    width:100vw;
+    height:100vh;
+    background: #181818;
+    z-index:1;
+    display:none;
+    opacity: 70%;
+}
+  
+.DEpopup .DEcontent {
+    position:fixed;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%) scale(0);
+    background: #181818;
+    border: 6px solid #202020;
+    width: 1000px;
+    height: 700px;
+    z-index:2;
+    text-align:center;
+    padding:20px;
+    box-sizing:border-box;
+    font-family:"Open Sans",sans-serif;
+    border-radius: 16px;
+}
+  
+.DEpopup .DEclose-btn {
+    cursor:pointer;
+    position:absolute;
+    right:20px;
+    top:20px;
+    width:30px;
+    height:30px;
+    background:#222;
+    color:#fff;
+    font-size:25px;
+    font-weight:600;
+    line-height:30px;
+    text-align:center;
+    border-radius:50%;
+}
+  
+.DEpopup.active .DEoverlay {
+    display:block;
+}
+  
+.DEpopup.active .DEcontent {
+    transition:all 300ms ease-in-out;
+    transform:translate(-50%,-50%) scale(1);
+}
+
+#DEPopup {
+    max-width: 350px;
+    max-height: 450px;
+    position: absolute;
+    left: 580px;
+    top: 110px;
+    border-radius: 12px;
+    border: 10px solid #202020;
+}
+
+#DEText {
+    position: absolute;
+    font-size: 26px;
+    height: 500px;
+    width: 500px;
+}
+
+#DoomEternal {
+    max-width: 350px;
+    max-height: 450px;
+    position: absolute;
+    left: 395px;
+    top: 450px;
+    border-radius: 12px;
+    border: 6px solid #181818;
+}
+
+#DoomEternalBox {
+    position: absolute;
+    height: 700px;
+    width: 400px;
+    background-color: #202020;
+    border-radius: 20px;
+    left: 375px;
+    top: 420px;
+}
+
+#DoomEternalButton {
+    padding: 25px 118px;
+    position: absolute;
+    left: 400px;
+    top: 920px;
+    font-size: 30px;
+    border-radius: 12px;
+    background-color: #25cf47;
+    border: none;
+    color: #fff;
+
+  }
+  
+#DoomEternalButton:hover {
+    padding: 25px 118px;
+    position: absolute;
+    left: 400px;
+    top: 920px;
+    font-size: 30px;
+    border-radius: 12px;
+    background-color: gray;
+    border: none;
+    cursor: pointer;
+}
+
+#DoomEternalWords {
+    position: absolute;
+    left: 415px;
+    top: 990px;
+    font-size: 25px;
+    border-radius: 8px;
+    height: 20px;
+    width: 380px;
+    color: lightgray;
+}
+
+/*# Doom Eternal Xbox*/
+
+/*# Minecraft Xbox */
+
+.MCpopup .MCoverlay {
+    position:fixed;
+    top:0px;
+    left:0px;
+    width:100vw;
+    height:100vh;
+    background: #181818;
+    z-index:1;
+    display:none;
+    opacity: 70%;
+}
+  
+.MCpopup .MCcontent {
+    position:fixed;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%) scale(0);
+    background: #181818;
+    border: 6px solid #202020;
+    width:1000px;
+    height:700px;
+    z-index:2;
+    text-align:center;
+    padding:20px;
+    box-sizing:border-box;
+    font-family:"Open Sans",sans-serif;
+    border-radius: 16px;
+}
+  
+.MCpopup .MCclose-btn {
+    cursor:pointer;
+    position:absolute;
+    right:20px;
+    top:20px;
+    width:30px;
+    height:30px;
+    background:#222;
+    color:#fff;
+    font-size:25px;
+    font-weight:600;
+    line-height:30px;
+    text-align:center;
+    border-radius:50%;
+}
+  
+.MCpopup.active .MCoverlay {
+    display:block;
+}
+  
+.MCpopup.active .MCcontent {
+    transition:all 300ms ease-in-out;
+    transform:translate(-50%,-50%) scale(1);
+}
+
+#MCPopup {
+    max-width: 350px;
+    max-height: 450px;
+    position: absolute;
+    left: 580px;
+    top: 110px;
+    border-radius: 12px;
+    border: 10px solid #202020;
+}
+
+#MCText {
+    position: absolute;
+    font-size: 26px;
+    height: 500px;
+    width: 500px;
+}
+  
+
+#Minecraft {
+    max-width: 350px;
+    max-height: 450px;
+    position: absolute;
+    left: 895px;
+    top: 450px;
+    border-radius: 12px;
+    border: 6px solid #181818;
+}
+
+#MinecraftBox {
+    position: absolute;
+    height: 700px;
+    width: 400px;
+    background-color: #202020;
+    border-radius: 20px;
+    left: 875px;
+    top: 420px;
+}
+
+#MinecraftButton {
+    padding: 25px 118px;
+    position: absolute;
+    left: 900px;
+    top: 920px;
+    font-size: 30px;
+    border-radius: 12px;
+    background-color: #25cf47;
+    border: none;
+    color: #fff;
+
+  }
+  
+#MinecraftButton:hover {
+    padding: 25px 118px;
+    position: absolute;
+    left: 900px;
+    top: 920px;
+    font-size: 30px;
+    border-radius: 12px;
+    background-color: gray;
+    border: none;
+    cursor: pointer;
+}
+
+#MinecraftWords {
+    position: absolute;
+    left: 915px;
+    top: 990px;
+    font-size: 25px;
+    border-radius: 8px;
+    height: 20px;
+    width: 380px;
+    color: lightgray;
+}
+
+/*# Minecraft Xbox */
+
+/*# Red Dead Redemption 2 Xbox */
+
+.RDR2popup .RDR2overlay {
+    position:fixed;
+    top:0px;
+    left:0px;
+    width:100vw;
+    height:100vh;
+    background: #181818;
+    z-index:1;
+    display:none;
+    opacity: 70%;
+}
+  
+.RDR2popup .RDR2content {
+    position:fixed;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%) scale(0);
+    background: #181818;
+    border: 6px solid #202020;
+    width:1000px;
+    height:700px;
+    z-index:2;
+    text-align:center;
+    padding:20px;
+    box-sizing:border-box;
+    font-family:"Open Sans",sans-serif;
+    border-radius: 16px;
+}
+  
+.RDR2popup .RDR2close-btn {
+    cursor:pointer;
+    position:absolute;
+    right:20px;
+    top:20px;
+    width:30px;
+    height:30px;
+    background:#222;
+    color:#fff;
+    font-size:25px;
+    font-weight:600;
+    line-height:30px;
+    text-align:center;
+    border-radius:50%;
+}
+  
+.RDR2popup.active .RDR2overlay {
+    display:block;
+}
+  
+.RDR2popup.active .RDR2content {
+    transition:all 300ms ease-in-out;
+    transform:translate(-50%,-50%) scale(1);
+}
+
+#RDR2Popup {
+    max-width: 350px;
+    max-height: 450px;
+    position: absolute;
+    left: 580px;
+    top: 110px;
+    border-radius: 12px;
+    border: 10px solid #202020;
+}
+
+#RDR2Text {
+    position: absolute;
+    font-size: 26px;
+    height: 500px;
+    width: 500px;
+}
+
+#rdr2 {
+    max-width: 350px;
+    max-height: 450px;
+    position: absolute;
+    left: 1395px;
+    top: 450px;
+    border-radius: 12px;
+    border: 6px solid #181818;
+}
+
+#rdr2Box {
+    position: absolute;
+    height: 700px;
+    width: 400px;
+    background-color: #202020;
+    border-radius: 20px;
+    left: 1375px;
+    top: 420px;
+}
+
+#rdr2Button {
+    padding: 25px 118px;
+    position: absolute;
+    left: 1400px;
+    top: 920px;
+    font-size: 30px;
+    border-radius: 12px;
+    background-color: #25cf47;
+    border: none;
+    color: #fff;
+
+  }
+  
+#rdr2Button:hover {
+    padding: 25px 118px;
+    position: absolute;
+    left: 1400px;
+    top: 920px;
+    font-size: 30px;
+    border-radius: 12px;
+    background-color: gray;
+    border: none;
+    cursor: pointer;
+}
+
+#rdr2Words {
+    position: absolute;
+    left: 1415px;
+    top: 990px;
+    font-size: 25px;
+    border-radius: 8px;
+    height: 20px;
+    width: 380px;
+    color: lightgray;
+}
+
+/*# Red Dead Redemption 2 Xbox */
+
+/*# Gta 5 Xbox */
+
+.GTA5popup .GTA5overlay {
+    position:fixed;
+    top:0px;
+    left:0px;
+    width:100vw;
+    height:100vh;
+    background: #181818;
+    z-index:1;
+    display:none;
+    opacity: 70%;
+}
+  
+.GTA5popup .GTA5content {
+    position:fixed;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%) scale(0);
+    background: #181818;
+    border: 6px solid #202020;
+    width:1000px;
+    height:700px;
+    z-index:2;
+    text-align:center;
+    padding:20px;
+    box-sizing:border-box;
+    font-family:"Open Sans",sans-serif;
+    border-radius: 16px;
+}
+  
+.GTA5popup .GTA5close-btn {
+    cursor:pointer;
+    position:absolute;
+    right:20px;
+    top:20px;
+    width:30px;
+    height:30px;
+    background:#222;
+    color:#fff;
+    font-size:25px;
+    font-weight:600;
+    line-height:30px;
+    text-align:center;
+    border-radius:50%;
+}
+  
+.GTA5popup.active .GTA5overlay {
+    display:block;
+}
+  
+.GTA5popup.active .GTA5content {
+    transition:all 300ms ease-in-out;
+    transform:translate(-50%,-50%) scale(1);
+}
+
+#GTA5Popup {
+    max-width: 350px;
+    max-height: 450px;
+    position: absolute;
+    left: 580px;
+    top: 110px;
+    border-radius: 12px;
+    border: 10px solid #202020;
+}
+
+#GTA5Text {
+    position: absolute;
+    font-size: 26px;
+    height: 500px;
+    width: 500px;
+}
+
+#gta5 {
+    max-width: 350px;
+    max-height: 450px;
+    position: absolute;
+    left: 395px;
+    top: 1250px;
+    border-radius: 12px;
+    border: 6px solid #181818;
+}
+
+#gta5Box {
+    position: absolute;
+    height: 700px;
+    width: 400px;
+    background-color: #202020;
+    border-radius: 20px;
+    left: 375px;
+    top: 1220px;
+}
+
+#gta5Button {
+    padding: 25px 111px;
+    position: absolute;
+    left: 400px;
+    top: 1730px;
+    font-size: 30px;
+    border-radius: 12px;
+    background-color: #25cf47;
+    border: none;
+    color: #fff;
+    
+
+  }
+  
+#gta5Button:hover {
+    padding: 25px 111px;
+    position: absolute;
+    left: 400px;
+    top: 1730px;
+    font-size: 30px;
+    border-radius: 12px;
+    background-color: gray;
+    border: none;
+    cursor: pointer;
+}
+
+#gta5Words {
+    position: absolute;
+    left: 415px;
+    top: 1800px;
+    font-size: 25px;
+    border-radius: 8px;
+    height: 20px;
+    width: 380px;
+    color: lightgray;
+}
+
+/*# Gta 5 Xbox */
+
+
+
+/*$     Xbox     */
+
+
+/*$     PlayStation     */
+
+
+/*# Doom Eternal PS */
+
+.DEPSpopup .DEPSoverlay {
+    position:fixed;
+    top:0px;
+    left:0px;
+    width:100vw;
+    height:100vh;
+    background: #181818;
+    z-index:1;
+    display:none;
+    opacity: 70%;
+}
+  
+.DEPSpopup .DEPScontent {
+    position:fixed;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%) scale(0);
+    background: #181818;
+    border: 6px solid #202020;
+    width:1000px;
+    height:700px;
+    z-index:2;
+    text-align:center;
+    padding:20px;
+    box-sizing:border-box;
+    font-family:"Open Sans",sans-serif;
+    border-radius: 16px;
+}
+  
+.DEPSpopup .DEPSclose-btn {
+    cursor:pointer;
+    position:absolute;
+    right:20px;
+    top:20px;
+    width:30px;
+    height:30px;
+    background:#222;
+    color:#fff;
+    font-size:25px;
+    font-weight:600;
+    line-height:30px;
+    text-align:center;
+    border-radius:50%;
+}
+  
+.DEPSpopup.active .DEPSoverlay {
+    display:block;
+}
+  
+.DEPSpopup.active .DEPScontent {
+    transition:all 300ms ease-in-out;
+    transform:translate(-50%,-50%) scale(1);
+}
+
+#DEPSPopup {
+    max-width: 350px;
+    max-height: 450px;
+    position: absolute;
+    left: 580px;
+    top: 110px;
+    border-radius: 12px;
+    border: 10px solid #202020;
+}
+
+#DEPSText {
+    position: absolute;
+    font-size: 26px;
+    height: 500px;
+    width: 500px;
+}
+
+#PSDoomEternal {
+    max-width: 350px;
+    max-height: 450px;
+    position: absolute;
+    left: 403px;
+    top: 2150px;
+    border-radius: 12px;
+    border: 6px solid #181818;
+}
+
+#PSDoomEternalBox {
+    position: absolute;
+    height: 700px;
+    width: 400px;
+    background-color: #202020;
+    border-radius: 20px;
+    left: 375px;
+    top: 2120px;
+}
+
+#PSDoomEternalButton {
+    padding: 25px 118px;
+    position: absolute;
+    left: 400px;
+    top: 2620px;
+    font-size: 30px;
+    border-radius: 12px;
+    background-color: #003087;
+    border: none;
+    color: #fff;
+
+  }
+  
+#PSDoomEternalButton:hover {
+    padding: 25px 118px;
+    position: absolute;
+    left: 400px;
+    top: 2620px;
+    font-size: 30px;
+    border-radius: 12px;
+    background-color: gray;
+    border: none;
+    cursor: pointer;
+}
+
+#PSDoomEternalWords {
+    position: absolute;
+    left: 415px;
+    top: 2690px;
+    font-size: 25px;
+    border-radius: 8px;
+    height: 20px;
+    width: 380px;
+    color: lightgray;
+}
+
+/*# Doom Eternal PS */
+
+
+/*# Slime Rancher PS */
+
+.SRpopup .SRoverlay {
+    position:fixed;
+    top:0px;
+    left:0px;
+    width:100vw;
+    height:100vh;
+    background: #181818;
+    z-index:1;
+    display:none;
+    opacity: 70%;
+}
+  
+.SRpopup .SRcontent {
+    position:fixed;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%) scale(0);
+    background: #181818;
+    border: 6px solid #202020;
+    width:1000px;
+    height:700px;
+    z-index:2;
+    text-align:center;
+    padding:20px;
+    box-sizing:border-box;
+    font-family:"Open Sans",sans-serif;
+    border-radius: 16px;
+}
+  
+.SRpopup .SRclose-btn {
+    cursor:pointer;
+    position:absolute;
+    right:20px;
+    top:20px;
+    width:30px;
+    height:30px;
+    background:#222;
+    color:#fff;
+    font-size:25px;
+    font-weight:600;
+    line-height:30px;
+    text-align:center;
+    border-radius:50%;
+}
+  
+.SRpopup.active .SRoverlay {
+    display:block;
+}
+  
+.SRpopup.active .SRcontent {
+    transition:all 300ms ease-in-out;
+    transform:translate(-50%,-50%) scale(1);
+}
+
+#SRPopup {
+    max-width: 350px;
+    max-height: 450px;
+    position: absolute;
+    left: 580px;
+    top: 110px;
+    border-radius: 12px;
+    border: 10px solid #202020;
+}
+
+#SRText {
+    position: absolute;
+    font-size: 26px;
+    height: 500px;
+    width: 500px;
+}
+
+#PSSR {
+    max-width: 350px;
+    max-height: 450px;
+    position: absolute;
+    left: 903px;
+    top: 2150px;
+    border-radius: 12px;
+    border: 6px solid #181818;
+}
+
+#PSSRBox {
+    position: absolute;
+    height: 700px;
+    width: 400px;
+    background-color: #202020;
+    border-radius: 20px;
+    left: 875px;
+    top: 2120px;
+}
+
+#PSSRButton {
+    padding: 25px 118px;
+    position: absolute;
+    left: 900px;
+    top: 2620px;
+    font-size: 30px;
+    border-radius: 12px;
+    background-color: #003087;
+    border: none;
+    color: #fff;
+
+  }
+  
+#PSSRButton:hover {
+    padding: 25px 118px;
+    position: absolute;
+    left: 900px;
+    top: 2620px;
+    font-size: 30px;
+    border-radius: 12px;
+    background-color: gray;
+    border: none;
+    cursor: pointer;
+}
+
+#PSSRWords {
+    position: absolute;
+    left: 915px;
+    top: 2690px;
+    font-size: 25px;
+    border-radius: 8px;
+    height: 20px;
+    width: 380px;
+    color: lightgray;
+}
+
+/*# Slime Rancher PS */
+
+
+/*# Watch Dogs PS */
+
+.WDpopup .WDoverlay {
+    position:fixed;
+    top:0px;
+    left:0px;
+    width:100vw;
+    height:100vh;
+    background: #181818;
+    z-index:1;
+    display:none;
+    opacity: 70%;
+}
+  
+.WDpopup .WDcontent {
+    position:fixed;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%) scale(0);
+    background: #181818;
+    border: 6px solid #202020;
+    width:1000px;
+    height:700px;
+    z-index:2;
+    text-align:center;
+    padding:20px;
+    box-sizing:border-box;
+    font-family:"Open Sans",sans-serif;
+    border-radius: 16px;
+}
+  
+.WDpopup .WDclose-btn {
+    cursor:pointer;
+    position:absolute;
+    right:20px;
+    top:20px;
+    width:30px;
+    height:30px;
+    background:#222;
+    color:#fff;
+    font-size:25px;
+    font-weight:600;
+    line-height:30px;
+    text-align:center;
+    border-radius:50%;
+}
+  
+.WDpopup.active .WDoverlay {
+    display:block;
+}
+  
+.WDpopup.active .WDcontent {
+    transition:all 300ms ease-in-out;
+    transform:translate(-50%,-50%) scale(1);
+}
+
+#WDPopup {
+    max-width: 350px;
+    max-height: 450px;
+    position: absolute;
+    left: 580px;
+    top: 110px;
+    border-radius: 12px;
+    border: 10px solid #202020;
+}
+
+#WDText {
+    position: absolute;
+    font-size: 26px;
+    height: 500px;
+    width: 500px;
+}
+
+#PSWD {
+    max-width: 350px;
+    max-height: 450px;
+    position: absolute;
+    left: 1400px;
+    top: 2150px;
+    border-radius: 12px;
+    border: 6px solid #181818;
+}
+
+#PSWDBox {
+    position: absolute;
+    height: 700px;
+    width: 400px;
+    background-color: #202020;
+    border-radius: 20px;
+    left: 1375px;
+    top: 2120px;
+}
+
+#PSWDButton {
+    padding: 25px 118px;
+    position: absolute;
+    left: 1400px;
+    top: 2620px;
+    font-size: 30px;
+    border-radius: 12px;
+    background-color: #003087;
+    border: none;
+    color: #fff;
+
+  }
+  
+#PSWDButton:hover {
+    padding: 25px 118px;
+    position: absolute;
+    left: 1400px;
+    top: 2620px;
+    font-size: 30px;
+    border-radius: 12px;
+    background-color: gray;
+    border: none;
+    cursor: pointer;
+}
+
+#PSWDWords {
+    position: absolute;
+    left: 1415px;
+    top: 2690px;
+    font-size: 25px;
+    border-radius: 8px;
+    height: 20px;
+    width: 380px;
+    color: lightgray;
+}
+
+/*# Watch Dogs PS */
+
+
+/*# God Of War PS */
+
+.GOFpopup .GOFoverlay {
+    position:fixed;
+    top:0px;
+    left:0px;
+    width:100vw;
+    height:100vh;
+    background: #181818;
+    z-index:1;
+    display:none;
+    opacity: 70%;
+}
+  
+.GOFpopup .GOFcontent {
+    position:fixed;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%) scale(0);
+    background: #181818;
+    border: 6px solid #202020;
+    width:1000px;
+    height:700px;
+    z-index:2;
+    text-align:center;
+    padding:20px;
+    box-sizing:border-box;
+    font-family:"Open Sans",sans-serif;
+    border-radius: 16px;
+}
+  
+.GOFpopup .GOFclose-btn {
+    cursor:pointer;
+    position:absolute;
+    right:20px;
+    top:20px;
+    width:30px;
+    height:30px;
+    background:#222;
+    color:#fff;
+    font-size:25px;
+    font-weight:600;
+    line-height:30px;
+    text-align:center;
+    border-radius:50%;
+}
+  
+.GOFpopup.active .GOFoverlay {
+    display:block;
+}
+  
+.GOFpopup.active .GOFcontent {
+    transition:all 300ms ease-in-out;
+    transform:translate(-50%,-50%) scale(1);
+}
+
+#GOFPopup {
+    max-width: 350px;
+    max-height: 450px;
+    position: absolute;
+    left: 580px;
+    top: 110px;
+    border-radius: 12px;
+    border: 10px solid #202020;
+}
+
+#GOFText {
+    position: absolute;
+    font-size: 26px;
+    height: 500px;
+    width: 500px;
+}
+
+#PSGOF {
+    max-width: 350px;
+    max-height: 450px;
+    position: absolute;
+    left: 395px;
+    top: 2930px;
+    border-radius: 12px;
+    border: 6px solid #181818;
+}
+
+#PSGOFBox {
+    position: absolute;
+    height: 730px;
+    width: 400px;
+    background-color: #202020;
+    border-radius: 20px;
+    left: 375px;
+    top: 2900px;
+}
+
+#PSGOFButton {
+    padding: 25px 111px;
+    position: absolute;
+    left: 400px;
+    top: 3430px;
+    font-size: 30px;
+    border-radius: 12px;
+    background-color: #003087;
+    border: none;
+    color: #fff;
+    
+
+  }
+  
+#PSGOFButton:hover {
+    padding: 25px 111px;
+    position: absolute;
+    left: 400px;
+    top: 3430px;
+    font-size: 30px;
+    border-radius: 12px;
+    background-color: gray;
+    border: none;
+    cursor: pointer;
+}
+
+#PSGOFWords {
+    position: absolute;
+    left: 415px;
+    top: 3500px;
+    font-size: 25px;
+    border-radius: 8px;
+    height: 20px;
+    width: 380px;
+    color: lightgray;
+}
+
+/*# God Of War PS */
+
+/*# Kena PS */
+
+.Kenapopup .Kenaoverlay {
+    position:fixed;
+    top:0px;
+    left:0px;
+    width:100vw;
+    height:100vh;
+    background: #181818;
+    z-index:1;
+    display:none;
+    opacity: 70%;
+}
+  
+.Kenapopup .Kenacontent {
+    position:fixed;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%) scale(0);
+    background: #181818;
+    border: 6px solid #202020;
+    width:1000px;
+    height:700px;
+    z-index:2;
+    text-align:center;
+    padding:20px;
+    box-sizing:border-box;
+    font-family:"Open Sans",sans-serif;
+    border-radius: 16px;
+}
+  
+.Kenapopup .Kenaclose-btn {
+    cursor:pointer;
+    position:absolute;
+    right:20px;
+    top:20px;
+    width:30px;
+    height:30px;
+    background:#222;
+    color:#fff;
+    font-size:25px;
+    font-weight:600;
+    line-height:30px;
+    text-align:center;
+    border-radius:50%;
+}
+  
+.Kenapopup.active .Kenaoverlay {
+    display:block;
+}
+  
+.Kenapopup.active .Kenacontent {
+    transition:all 300ms ease-in-out;
+    transform:translate(-50%,-50%) scale(1);
+}
+
+#KenaPopup {
+    max-width: 350px;
+    max-height: 450px;
+    position: absolute;
+    left: 580px;
+    top: 110px;
+    border-radius: 12px;
+    border: 10px solid #202020;
+}
+
+#KenaText {
+    position: absolute;
+    font-size: 26px;
+    height: 500px;
+    width: 500px;
+}
+
+#PSKena {
+    max-width: 350px;
+    max-height: 450px;
+    position: absolute;
+    left: 895px;
+    top: 2930px;
+    border-radius: 12px;
+    border: 6px solid #181818;
+}
+
+#PSKenaBox {
+    position: absolute;
+    height: 730px;
+    width: 400px;
+    background-color: #202020;
+    border-radius: 20px;
+    left: 875px;
+    top: 2900px;
+}
+
+#PSKenaButton {
+    padding: 25px 111px;
+    position: absolute;
+    left: 900px;
+    top: 3430px;
+    font-size: 30px;
+    border-radius: 12px;
+    background-color: #003087;
+    border: none;
+    color: #fff;
+    
+
+  }
+  
+#PSKenaButton:hover {
+    padding: 25px 111px;
+    position: absolute;
+    left: 900px;
+    top: 3430px;
+    font-size: 30px;
+    border-radius: 12px;
+    background-color: gray;
+    border: none;
+    cursor: pointer;
+}
+
+#PSKenaWords {
+    position: absolute;
+    left: 915px;
+    top: 3500px;
+    font-size: 25px;
+    border-radius: 8px;
+    height: 20px;
+    width: 380px;
+    color: lightgray;
+}
+
+/*# Kena PS */
+
+    
+/*$     PlayStation     */
+
+
+
+/*$     PC     */
+
+/*# GTA San Andreas PC */
+
+.GTASApopup .GTASAoverlay {
+    position:fixed;
+    top:0px;
+    left:0px;
+    width:100vw;
+    height:100vh;
+    background: #181818;
+    z-index:1;
+    display:none;
+    opacity: 70%;
+}
+  
+.GTASApopup .GTASAcontent {
+    position:fixed;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%) scale(0);
+    background: #181818;
+    border: 6px solid #202020;
+    width:1000px;
+    height:700px;
+    z-index:2;
+    text-align:center;
+    padding:20px;
+    box-sizing:border-box;
+    font-family:"Open Sans",sans-serif;
+    border-radius: 16px;
+}
+  
+.GTASApopup .GTASAclose-btn {
+    cursor:pointer;
+    position:absolute;
+    right:20px;
+    top:20px;
+    width:30px;
+    height:30px;
+    background:#222;
+    color:#fff;
+    font-size:25px;
+    font-weight:600;
+    line-height:30px;
+    text-align:center;
+    border-radius:50%;
+}
+  
+.GTASApopup.active .GTASAoverlay {
+    display:block;
+}
+  
+.GTASApopup.active .GTASAcontent {
+    transition:all 300ms ease-in-out;
+    transform:translate(-50%,-50%) scale(1);
+}
+
+#GTASAPopup {
+    max-width: 350px;
+    max-height: 450px;
+    position: absolute;
+    left: 580px;
+    top: 110px;
+    border-radius: 12px;
+    border: 10px solid #202020;
+}
+
+#GTASAText {
+    position: absolute;
+    font-size: 26px;
+    height: 500px;
+    width: 500px;
+}
+
+#PCGTASA {
+    max-width: 350px;
+    max-height: 450px;
+    position: absolute;
+    left: 395px;
+    top: 3870px;
+    border-radius: 12px;
+    border: 6px solid #181818;
+}
+
+#PCGTASABox {
+    position: absolute;
+    height: 730px;
+    width: 400px;
+    background-color: #202020;
+    border-radius: 20px;
+    left: 375px;
+    top: 3830px;
+}
+
+#PCGTASAButton {
+    padding: 25px 111px;
+    position: absolute;
+    left: 400px;
+    top: 4350px;
+    font-size: 30px;
+    border-radius: 12px;
+    background-color: black;
+    border: none;
+    color: #fff;
+    
+
+  }
+  
+#PCGTASAButton:hover {
+    padding: 25px 111px;
+    position: absolute;
+    left: 400px;
+    top: 4350px;
+    font-size: 30px;
+    border-radius: 12px;
+    background-color: gray;
+    border: none;
+    cursor: pointer;
+}
+
+#PCGTASAWords {
+    position: absolute;
+    left: 415px;
+    top: 4420px;
+    font-size: 25px;
+    border-radius: 8px;
+    height: 20px;
+    width: 380px;
+    color: lightgray;
+}
+
+/*# GTA San Andreas PC */
+
+
+/*# Call Of Duty PC */
+
+.CODpopup .CODoverlay {
+    position:fixed;
+    top:0px;
+    left:0px;
+    width:100vw;
+    height:100vh;
+    background: #181818;
+    z-index:1;
+    display:none;
+    opacity: 70%;
+}
+  
+.CODpopup .CODcontent {
+    position:fixed;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%) scale(0);
+    background: #181818;
+    border: 6px solid #202020;
+    width:1000px;
+    height:700px;
+    z-index:2;
+    text-align:center;
+    padding:20px;
+    box-sizing:border-box;
+    font-family:"Open Sans",sans-serif;
+    border-radius: 16px;
+}
+  
+.CODpopup .CODclose-btn {
+    cursor:pointer;
+    position:absolute;
+    right:20px;
+    top:20px;
+    width:30px;
+    height:30px;
+    background:#222;
+    color:#fff;
+    font-size:25px;
+    font-weight:600;
+    line-height:30px;
+    text-align:center;
+    border-radius:50%;
+}
+  
+.CODpopup.active .CODoverlay {
+    display:block;
+}
+  
+.CODpopup.active .CODcontent {
+    transition:all 300ms ease-in-out;
+    transform:translate(-50%,-50%) scale(1);
+}
+
+#CODPopup {
+    max-width: 350px;
+    max-height: 450px;
+    position: absolute;
+    left: 580px;
+    top: 110px;
+    border-radius: 12px;
+    border: 10px solid #202020;
+}
+
+#CODText {
+    position: absolute;
+    font-size: 26px;
+    height: 500px;
+    width: 500px;
+}
+
+#PCCOD {
+    max-width: 350px;
+    max-height: 450px;
+    position: absolute;
+    left: 909px;
+    top: 3870px;
+    border-radius: 12px;
+    border: 6px solid #181818;
+}
+
+#PCCODBox {
+    position: absolute;
+    height: 730px;
+    width: 400px;
+    background-color: #202020;
+    border-radius: 20px;
+    left: 875px;
+    top: 3830px;
+}
+
+#PCCODButton {
+    padding: 25px 111px;
+    position: absolute;
+    left: 900px;
+    top: 4350px;
+    font-size: 30px;
+    border-radius: 12px;
+    background-color: black;
+    border: none;
+    color: #fff;
+    
+
+  }
+  
+#PCCODButton:hover {
+    padding: 25px 111px;
+    position: absolute;
+    left: 900px;
+    top: 4350px;
+    font-size: 30px;
+    border-radius: 12px;
+    background-color: gray;
+    border: none;
+    cursor: pointer;
+}
+
+#PCCODWords {
+    position: absolute;
+    left: 915px;
+    top: 4420px;
+    font-size: 25px;
+    border-radius: 8px;
+    height: 20px;
+    width: 380px;
+    color: lightgray;
+}
+
+/*# Call Of Duty PC */
+
+/*$     PC     */
+
+.words {
+    color: #fff;
+}
+

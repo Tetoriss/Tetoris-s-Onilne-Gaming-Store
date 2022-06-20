@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+
+
+body {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    background: var(--clr);
+}
+
+:root {
+    --clr: #181818;
+}
+
+
+#Title {
+    position: absolute;
+    left: 50px;
+    top: 30px;
+    font-size: 70px;
+}
+
+#Title span {
+    color: #29fd53;
+    font-size: 75px;
+    font-style:italic;
+}
+
+#image {
+    position: absolute;
+    max-width: 500px;
+    max-height: 700px;
+    left: 1250px;
+    top: 120px;
+    border: 8px solid rgb(31, 31, 31);
+    border-radius: 50px;
+}
+
+#description {
+    position: absolute;
+    left: 50px;
+    top: 450px;
+    font-size: 43px;
+}
+
+#description span {
+    color: #29fd53;
+    font-size: 48px;
+}
+
+#Button {
+    position: absolute;
+    background: #444;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 3em;
+    letter-spacing: 0.1em;
+    top: 770px;
+    left: 50px;
+    padding: 25px 75px;
+    transition: 0.5s;
+}
+
+#Button:hover {
+    letter-spacing: 0.25em;
+    background: #29fd53;
+    color: #29fd53;
+    box-shadow: 0 0 35px #29fd53;
+}
+
+#Button::before {
+    content: "";
+    position: absolute;
+    inset: 2px;
+    background: #27282c;
+
+}
+
+#Button span {
+    position: relative;
+}
+
+#text {
+    position: absolute;
+    left: 100px;
+    top: 1500px;
+    font-size: 100px;
+    color: transparent;
+}
+
+#text:hover::after {
+    content: "Shhhh! I'm playing Hide & Seek!";
+    left: 300px;
+    color: white;
+}
+
+
+
+.words {
+    color: #fff;
+}
+
